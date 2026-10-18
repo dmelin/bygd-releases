@@ -17,8 +17,8 @@ This is an **early playtest build for friends**. It is unfinished, it will have 
 2. Unzip it anywhere and run **`Bygd.exe`**. There is no installer, and nothing else is needed.
 3. Windows SmartScreen may say the app is unrecognised, because the build is not code-signed. Click **More info**, then **Run anyway**.
 
-Needs a Windows PC with a GPU that supports Vulkan or Direct3D 12 (anything from the last ten years or so). The game runs in a window or full
-screen and scales with the UI scale option in Settings.
+Needs a Windows 10 or 11 PC (64-bit) with a graphics card that supports Vulkan (anything from the last ten years or so). The interface
+scales with the UI scale option in Settings.
 
 ## How to play
 
@@ -69,4 +69,4 @@ expected, and the seed shown in the top-left corner when you can.
 
 ## Credits
 
-Design, code and art direction by Daniel Melin. Built with [Godot 4](https://godotengine.org). Made with help from Claude.
+A game by Daniel Melin. Built with [Godot 4](https://godotengine.org). Made with help from Claude.
