@@ -11,6 +11,8 @@ This is an **early playtest build for friends**. It is unfinished, it will have 
   <img src="images/screenshot-village.png" alt="A Big Village with a sheep farm, a market and a well" width="800">
 </p>
 
+<p align="center"><a href="images/bygd_trailer.mp4"><b>Watch the 48-second trailer</b></a> (a map growing from nothing, no interface)</p>
+
 ## Download and play (Windows)
 
 1. Download [`download/Bygd-windows.zip`](download/Bygd-windows.zip) (about 53 MB; use the *Download raw file* button on that page).
