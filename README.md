@@ -5,30 +5,36 @@
 **Bygd** is a small real-time hex-tile builder. You draw terrain tiles, match patterns for coins (*Tegn*), spend them on farms, wells,
 wood cutters and markets, and keep your villages supplied so they grow. Let a district go hungry or thirsty and it shrinks again.
 
-This is an **early playtest build for friends** (version **0.5.0**). It is unfinished, it will have rough edges, and your feedback is exactly what it is for.
+This is an **early playtest build for friends** (version **0.6.1.1**). It is unfinished, it will have rough edges, and your feedback is exactly what it is for.
+
+<p align="center">
+  <img src="images/island.jpg" alt="An island with a walled town, farms, a market and a quarry" width="900">
+</p>
 
 <p align="center">
   <img src="images/levels.png" alt="One tile growing from a Village to a Big Town" width="900">
 </p>
 
 <p align="center">
-  <img src="images/screenshot-game.png" alt="The game: a village with farms, a market and a well" width="800">
+  <img src="images/screenshot-game.png" alt="The game: the start of a run" width="800">
 </p>
 
 <p align="center"><a href="images/bygd_trailer.mp4"><b>Watch the 48-second trailer</b></a> (an early build: a map growing from nothing, no interface)</p>
 
-## What is new in 0.5.0
+## What is new in 0.6
 
-- **Something to look forward to.** You start with grass, forest, water and desert, and the Well, Farm and Village. The Wood Cutter unlocks at 10 points, the Market at 15,
-  mountains with the Quarry and Stone Mason at your first Big Village, and the Mine and Smithy at your first Small Town. New cards pop into the toolbar.
-- **Bigger towns.** Villages grow into Big Villages, Small Towns (a stone house, an inn, a carriage) and Big Towns (a town hall tower with a clock, a walled town with towers and banners).
-  Each step needs something new: wood, stone goods, tools.
-- **Markets earn Tegn.** Every Market has a chest that fills as it delivers goods; click the Market to collect.
-- **A tour for new players** (the first button of the menu), tooltips on the store, smoke from the chimneys, flags that flutter in the wind, and a lot of fixes.
+- **The Fishing Hut** (unlocked with the Market): the only building that goes on water, on a water tile with grass next to it. It fishes for food from a boat, like a small farm.
+- **New patterns:** for 20 Tegn all three patterns are replaced, and water, desert and mountain are much more likely than usual.
+- **Pause:** press **Space** to stop the clock (nothing produces, nothing is eaten, no chests fill). It turns to night and the lights glow; the animations go on.
+- **Gift tiles:** the Wood Cutter, the Quarry and the Mine each come with a tile in your Stash (a forest, a mountain, a mountain). Mountains also turn up more often, and a tile that has
+  not been drawn for a while is drawn next.
+- **Buy tiles** costs more each time you buy, and a warning under the Stash tells you when placing your last tile would end the game.
+- **Smaller things:** Esc backs out of the menu step by step, the compass turns the camera back when clicked, tooltips are easier to read, less lag while you drag the map, and a few things
+  to find. 0.5.0 brought the progression, the bigger towns and the market chests.
 
 ## Download and play (Windows)
 
-1. Download [`download/Bygd-windows.zip`](download/Bygd-windows.zip) (about 54 MB; use the *Download raw file* button on that page).
+1. Download the game from **[bygdgame.com](https://bygdgame.com)** (the button on the page), or directly: [Bygd-windows.zip](https://bygdgame.com/download/Bygd-windows.zip) (about 54 MB).
 2. Unzip it anywhere and run **`Bygd.exe`**. There is no installer, and nothing else is needed.
 3. Windows SmartScreen may say the app is unrecognised, because the build is not code-signed. Click **More info**, then **Run anyway**.
 
@@ -49,6 +55,7 @@ scales with the UI scale option in Settings.
   - **Wood Cutter**: goes on or next to a forest and takes the timber of one forest. Stack a second one for a Logging Camp, which needs a second forest next to it.
   - **Market**: gathers up to four producers and delivers their goods to the settlements around it. Its chest earns Tegn: click the Market to collect.
   - **Quarry and Mine**: on a mountain. A **Stone Mason** or **Smithy** right next to one turns its rock into stone goods, or its iron into tools.
+  - **Fishing Hut**: goes on a water tile with grass next to it and fishes for 3 food; a Market can catch it. It cannot be upgraded.
   - **Demolish**: free; blows up a tile if you change your mind.
 - **Supply.** Producers reach as far as their range allows, and roads make it reach further. A storage only takes what it can hold plus what it uses, so what one house does not
   need goes to the next. Roads and bridges appear by themselves between nearby assets.
@@ -61,6 +68,7 @@ scales with the UI scale option in Settings.
 
 | Key | |
 |---|---|
+| Space | Pause and unpause (night falls while it is paused) |
 | Esc | The menu: Resume, three save slots, Settings, Quit |
 | Right-drag, Q / E | Rotate the camera |
 | Middle-drag, Shift + drag, W A S D | Pan the camera |
@@ -84,4 +92,4 @@ confusing moment or a number that feels wrong, please tell me what you did, what
 
 ## Credits
 
-A game by Daniel Melin. Built with [Godot 4](https://godotengine.org). Made with help from Claude.
+A game by Crooked Nail (Daniel Melin). Built with [Godot 4](https://godotengine.org). Made with help from Claude.
