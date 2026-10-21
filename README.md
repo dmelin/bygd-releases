@@ -2,7 +2,7 @@
   <img src="images/logo.png" alt="BYGD - a real-time hex-tile builder" width="460">
 </p>
 
-**Bygd** is a small real-time hex-tile builder. You draw terrain tiles, match patterns for coins (*Tegn*), spend them on farms, wells,
+**Bygd**, by Crooked Nail, is a small real-time hex-tile builder. You draw terrain tiles, match patterns for coins (*Tegn*), spend them on farms, wells,
 wood cutters and markets, and keep your villages supplied so they grow. Let a district go hungry or thirsty and it shrinks again.
 
 This is an **early playtest build for friends** (version **0.6.1.1**). It is unfinished, it will have rough edges, and your feedback is exactly what it is for.
@@ -92,4 +92,4 @@ confusing moment or a number that feels wrong, please tell me what you did, what
 
 ## Credits
 
-A game by Crooked Nail (Daniel Melin). Built with [Godot 4](https://godotengine.org). Made with help from Claude.
+Developed by Crooked Nail. Built with [Godot 4](https://godotengine.org). Made with help from Claude.
