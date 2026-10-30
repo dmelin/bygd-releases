@@ -5,7 +5,7 @@
 **Bygd**, by Crooked Nail, is a small real-time hex-tile builder. You draw terrain tiles, match patterns for coins (*Tegn*), spend them on farms, wells,
 wood cutters, mines and markets, and keep your villages supplied so they grow. Let a district go hungry or thirsty and it shrinks again.
 
-This is **version 1.0.0**, the first full release. It is in English and Swedish, and your feedback is still very welcome.
+This is **version 1.5.0**. It is in English and Swedish, and your feedback is still very welcome.
 
 <p align="center">
   <img src="images/island.jpg" alt="A town at golden hour: villages, farms, a market, a mine and a forest" width="900">
@@ -17,7 +17,22 @@ This is **version 1.0.0**, the first full release. It is in English and Swedish,
 
 <p align="center"><a href="images/bygd_trailer.mp4"><b>Watch the 48-second trailer</b></a> (an early build: a map growing from nothing, no interface)</p>
 
-## What is new in 1.0
+## What is new since 1.0
+
+<p align="center">
+  <img src="images/holidays.jpg" alt="A witch at Halloween, Santa at a chimney, Lucia's procession and New Year fireworks" width="800">
+</p>
+
+- **Holidays (1.5):** the map dresses up for the Swedish holidays, for a week around each: pumpkin lanterns, a witch and a mummy (Halloween), spruces and Santa at a chimney (Christmas), maypoles (Midsummer), eggs (Easter), Valborg bonfires, Lucia's procession and Kräftskiva tables. New Year's fireworks go off at midnight and last two minutes. You can switch it off in the settings.
+- **Big maps keep their look (1.5):** on very large boards tiles could lose their thickness and colour; that is fixed, and settlements no longer outgrow their level.
+- **The Flying Dutchman (1.4):** very rarely a ghost galleon rises out of two empty water tiles, sails across firing its cannons and dives again. Click him for one Tegn per tile on your map.
+- **What holds a settlement back (1.3):** the level-up card names what is missing: water, food, wood, stone goods or tools, or a lower neighbour.
+- **An online scoreboard (1.2):** when a game ends you can post your name, score and a picture of your map to [bygdgame.com/scoreboard](https://bygdgame.com/scoreboard). Nothing is sent unless you press Post score.
+- **A keeper for the Cursed tile (1.1):** a zombie with a swinging lantern, and a card that shows what a settlement needs to level up.
+
+Every version's notes are on the [releases page](https://github.com/dmelin/bygd-releases/releases).
+
+## What was new in 1.0
 
 - **A leather and wood interface:** the store hangs from the top of the screen like a stitched leather panel, the Stash is a leather strip with the tiles inlaid, the patterns are leather too (a wooden arrow hides and shows them), and the compass is a wooden needle that turns and tilts with the camera.
 - **Click a tile:** it lifts off the ground with what stands on it, and a parchment note shows what it makes while cards under it show what a building needs (stored and capacity, and when it runs empty or full). Hover a line to see ribbon arrows to everything it supplies, or to everything that supplies the need. Let go and the tile drops with a bounce, a clunk and a shockwave. The focus holds on the tile you picked.
@@ -32,7 +47,7 @@ This is **version 1.0.0**, the first full release. It is in English and Swedish,
 
 ## Download and play
 
-Every build is attached to the **[1.0.0 release](https://github.com/dmelin/bygd-releases/releases/tag/v1.0.0)** on this page (and the website, **[bygdgame.com](https://bygdgame.com)**, has them too).
+Every build is attached to the **[1.5.0 release](https://github.com/dmelin/bygd-releases/releases/tag/v1.5.0)** on this page (and the website, **[bygdgame.com](https://bygdgame.com)**, has them too).
 
 **Windows**
 
